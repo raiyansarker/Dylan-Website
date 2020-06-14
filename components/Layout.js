@@ -1,55 +1,60 @@
-import React, { useState, useEffect } from 'react'
-import { Grid, Row, Col } from 'react-flexbox-grid'
-import { Sun, Moon } from 'react-feather'
-import Link from 'next/link'
+import React, { useState, useEffect } from "react";
+import { Grid, Row, Col } from "react-flexbox-grid";
+import { Sun, Moon } from "react-feather";
+import Link from "next/link";
 
 const menu = [
   {
-    path: '/',
-    name: 'start',
+    path: "/",
+    name: "start",
   },
   {
-    path: '/about',
-    name: 'about',
+    path: "/about",
+    name: "about",
   },
   {
-    path: '/uses',
-    name: 'uses',
+    path: "/blog",
+    name: "blog",
   },
-]
+  {
+    path: "/uses",
+    name: "uses",
+  },
+];
 
 function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
-  const onLoadTheme = typeof localStorage !== 'undefined' && localStorage.getItem('BLOG_THEME')
-  const [theme, setTheme] = useState(onLoadTheme)
-  const [mounted, setMounted] = useState(false)
+  const onLoadTheme =
+    typeof localStorage !== "undefined" && localStorage.getItem("BLOG_THEME");
+  const [theme, setTheme] = useState(onLoadTheme);
+  const [mounted, setMounted] = useState(false);
   const switchTheme = () => {
-    const setTo = theme === 'dark' ? 'light' : 'dark'
+    const setTo = theme === "dark" ? "light" : "dark";
 
-    setTheme(setTo)
-  }
+    setTheme(setTo);
+  };
 
   useEffect(() => {
-    if (onLoadTheme) return
+    if (onLoadTheme) return;
 
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme('dark')
+      setTheme("dark");
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
+    document.documentElement.setAttribute("data-theme", theme);
 
-    localStorage.setItem('BLOG_THEME', theme)
+    localStorage.setItem("BLOG_THEME", theme);
 
-    setMounted(true)
-  }, [theme])
+    setMounted(true);
+  }, [theme]);
 
   const containerProps = {
-    ...isHomepage && { md: 12 },
-    ...!isHomepage && { md: 8, mdOffset: 2 },
-  }
+    ...(isHomepage && { md: 12 }),
+    ...(!isHomepage && { md: 8, mdOffset: 2 }),
+  };
 
-  if (!mounted) return <div />
+  if (!mounted) return <div />;
 
   return (
     <>
@@ -73,9 +78,12 @@ function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
             </ul>
           </Col>
 
-          <Col xs={2} style={{ textAlign: 'right' }}>
-            <button className="theme-switch-button" onClick={() => switchTheme()}>
-              {theme === 'dark' ? <Sun /> : <Moon />}
+          <Col xs={2} style={{ textAlign: "right" }}>
+            <button
+              className="theme-switch-button"
+              onClick={() => switchTheme()}
+            >
+              {theme === "dark" ? <Sun /> : <Moon />}
             </button>
           </Col>
         </Row>
@@ -85,8 +93,11 @@ function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
         <Row>
           <Col {...containerProps}>
             {!secondaryPage && (
-              <h1 className={`blog-title`} style={isHomepage && { textAlign: 'left' }}>
-                Telmo, code <span className="amp">&</span> design
+              <h1
+                className={`blog-title`}
+                style={isHomepage && { textAlign: "left" }}
+              >
+                Dylan Albertazzi
               </h1>
             )}
 
@@ -95,11 +106,9 @@ function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
         </Row>
       </Grid>
 
-      <footer>
-        &copy; {new Date().getFullYear()}
-      </footer>
+      <footer>&copy; {new Date().getFullYear()}</footer>
     </>
-  )
+  );
 }
 
-export default Layout
+export default Layout;
