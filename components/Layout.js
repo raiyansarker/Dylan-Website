@@ -3,7 +3,7 @@ import { Grid, Row, Col } from "react-flexbox-grid";
 import { Sun, Moon } from "react-feather";
 import Link from "next/link";
 import simpleIcons from "simple-icons";
-// test comment
+
 const menu = [
   {
     path: "/",
@@ -70,7 +70,7 @@ function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
   const [theme, setTheme] = useState(onLoadTheme);
   const [mounted, setMounted] = useState(false);
   const switchTheme = () => {
-    const setTo = theme === "light" ? "light" : "dark";
+    const setTo = theme === "dark" ? "light" : "dark";
 
     setTheme(setTo);
   };
@@ -78,9 +78,9 @@ function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
   useEffect(() => {
     if (onLoadTheme) return;
 
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-    }
+    // if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    //   setTheme("dark");
+    // }
   }, []);
 
   useEffect(() => {
