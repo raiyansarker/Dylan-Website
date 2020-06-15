@@ -10,16 +10,7 @@ function Uses({ og }) {
         <h1 className="uses-h1">What I use</h1>
 
         <div className="twitter-border, uses-intro ">
-          I often get asked about what's my setup as well as what I use to share
-          all the tips I usually post on{" "}
-          <a
-            href="https://twitter.com/telmo"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            Twitter
-          </a>
-          , so here it is.
+          I occasionally get asked about my setup, so here it is.
         </div>
 
         {USES.map(({ title, stack }) => (

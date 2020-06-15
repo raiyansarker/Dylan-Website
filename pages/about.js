@@ -10,6 +10,7 @@ const TextTransition = dynamic(() => import("react-text-transition"), {
 import Layout from "../components/Layout";
 import Icon from "../components/Icon";
 import { PRESENT, SKILLS } from "../constants/Stack";
+import { AFFILIATIONS } from "../constants/Uses";
 
 function About() {
   const [index, setIndex] = useState(0);
@@ -62,6 +63,30 @@ function About() {
                 </Col>
               ))}
             </Row>
+            <hr />
+            {AFFILIATIONS.map(({ title, stack }) => (
+              <>
+                <h3>{title}</h3>
+                <ul
+                  style={{ marginTop: "0px" }}
+                  className="uses-list"
+                  key={title}
+                >
+                  {stack.map(({ name, description, link }) => (
+                    <li key={name}>
+                      <a
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                      >
+                        {name}
+                      </a>
+                      <span>{description}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ))}
             <hr />
             Follow me on{" "}
             <a

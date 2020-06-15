@@ -148,7 +148,16 @@ function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
         </Row>
       </Grid>
 
-      <footer>&copy; {new Date().getFullYear()}</footer>
+      <footer>
+        &copy; {new Date().getFullYear()} Code hosted on{" "}
+        <a
+          className="dotted-link"
+          href={`https://github.com/dylan-albertazzi/Dylan-Website`}
+        >
+          Github
+        </a>{" "}
+        🤖{" "}
+      </footer>
     </>
   );
 }
