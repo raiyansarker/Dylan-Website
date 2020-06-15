@@ -40,13 +40,11 @@ function About() {
           <div className="about-intro">
             <Row>
               <Col md={12}>
-                I'm a full-stack engineer. I started coding my sophomore year of
-                high school and have loved every day of it for the past 6+
-                years.
+                I'm a full-stack engineer. I've been coding for 6+ years and
+                have loved every day of it.
                 <br />
                 <br />
-                I've worked on a variety of problems helping startups, research
-                labs, friends, and family.
+                I've worked with small businesses, startups, and research labs.
               </Col>
             </Row>
             <hr />

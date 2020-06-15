@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import { Sun, Moon } from "react-feather";
 import Link from "next/link";
+import simpleIcons from "simple-icons";
 
 const menu = [
   {
@@ -21,6 +22,47 @@ const menu = [
     name: "uses",
   },
 ];
+
+export function InviteBox() {
+  return (
+    <div
+      className="twitter-border "
+      style={{
+        backgroundSize: "90px",
+        backgroundPosition: "105% 180%",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      I'm available for hire. Reach out via{" "}
+      <a
+        href="mailto: d.albertazzi10@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+      >
+        Email
+      </a>{" "}
+      or DM me on Twitter. ✌️
+    </div>
+  );
+}
+
+export const Icon = ({ stack, style }) => {
+  const icon = simpleIcons.get(stack);
+
+  return (
+    <div
+      data-icon={stack}
+      style={{
+        fill: `#${icon.hex}`,
+        display: "inline-block",
+        width: "50px",
+        margin: "0 auto",
+        ...style,
+      }}
+      dangerouslySetInnerHTML={{ __html: icon.svg }}
+    />
+  );
+};
 
 function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
   const onLoadTheme =

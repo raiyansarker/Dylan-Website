@@ -10,8 +10,9 @@ const TextTransition = dynamic(() => import("react-text-transition"), {
   ssr: false,
 });
 
-import { SKILLS, PROJECTS } from "../constants/Stack";
-import Layout from "../components/Layout";
+import { SKILLS, PROJECTS, SOCIAL } from "../constants/Stack";
+import Layout, { Icon, InviteBox } from "../components/Layout";
+import { solarizedDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 function formatDate(date) {
   const options = { year: "numeric", month: "long", day: "numeric" };
@@ -26,6 +27,10 @@ function freshWriting(date) {
 
   return today - writingDate < 60 * 60 * 1000 * 24 * 2; // 2 days old
 }
+
+var subtitleStyle = {
+  color: "#222",
+};
 
 function Homepage({ writings }) {
   const [index, setIndex] = useState(0);
@@ -52,57 +57,93 @@ function Homepage({ writings }) {
               style={{ display: "inline-block" }}
             />
           </h1>
-
           <div className="about-intro">
             <Row>
               <Col md={12}>
-                I'm a full-stack engineer. I started coding my sophomore year of
-                high school and have loved every day of it for the past 6+
-                years.
+                Hi there and welcome 👋🏻.
                 <br />
-                <br />
-                I've worked on a variety of problems helping startups, research
-                labs, small businesses, friends, and family.
+                I'm a full-stack engineer. I've been coding for 6+ years and
+                have loved every day of it. I've worked with small businesses,
+                startups, and research labs.
               </Col>
             </Row>
             <hr />
-            <h3>Have a look around</h3>
           </div>
           <>
-            <h3>{PROJECTS.title}</h3>
+            <h2>{PROJECTS.title}</h2>
             <Row style={{ marginTop: 30 }}>
               <ul
                 className="uses-list"
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
-                {PROJECTS.data.map(({ image, name, description, link }) => (
-                  <div key={link}>
-                    <img
-                      src={image}
-                      alt={`Project - ${name}`}
-                      style={{
-                        width: "200px",
-                        marginLeft: "10px",
-                      }}
-                    />
-                    <li key={name}>
-                      <a
-                        href={link}
-                        target="_blank"
-                        rel="noopener noreferrer nofollow"
-                      >
-                        {name}
-                      </a>
-                      <br />
-                      <br />
-                      <span className="darker">{description}</span>
-                    </li>
-                    <hr />
-                  </div>
-                ))}
+                {PROJECTS.data.map(
+                  ({ image, name, description, link, subtitle }) => (
+                    <div key={link}>
+                      <img
+                        src={image}
+                        alt={`Project - ${name}`}
+                        style={{
+                          width: "200px",
+                          marginLeft: "10px",
+                          borderStyle: "solid",
+                        }}
+                      />
+                      <li key={name}>
+                        <a
+                          href={link}
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                        >
+                          {name}
+                          <p style={subtitleStyle}>{subtitle}</p>
+                        </a>
+
+                        <span className="darker">{description}</span>
+                      </li>
+
+                      <hr />
+                    </div>
+                  )
+                )}
               </ul>
             </Row>
           </>
+          <>
+            <h3>{SOCIAL.title}</h3>
+
+            <Row className="uses-intro" style={{ marginTop: 30 }}>
+              {SOCIAL.data.map((s) => (
+                <Col
+                  md={2}
+                  xs={4}
+                  key={s.link}
+                  style={{ textAlign: "center", marginBottom: 40 }}
+                >
+                  <Icon stack={s.platform} />
+                  <div className="stack-name">
+                    <a href={s.link} target="_blank" rel="noopener noreferrer">
+                      {s.platform}
+                    </a>
+                  </div>
+                </Col>
+              ))}
+            </Row>
+          </>
+          <InviteBox />
+          <hr />
+          <Row className="uses-intro">
+            <Col>
+              Follow me on{" "}
+              <a
+                href={`https://twitter.com/DylanAlbertazzi`}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                Twitter
+              </a>
+              . That's where I usually hangout.
+            </Col>
+          </Row>
         </div>
       </Layout>
     </>

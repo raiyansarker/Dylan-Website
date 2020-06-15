@@ -31,30 +31,54 @@ export const SKILLS = [
 ];
 
 export const PROJECTS = {
-  title: "Projects I have worked on",
+  title: "Have a look around",
   data: [
     {
-      image: "https://i.ibb.co/dPRzYZv/pkgreview-2.jpg",
+      image: "https://i.ibb.co/xsgr0tk/ezgif-com-crop-2.gif",
       name: "Cassie Visualization",
       subtitle: "Dynamic Robotics Laboratory",
       link: "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
-        "In order to clearly show the results of the lab’s research paper to RSS we needed a way to visualize the data we collected. <br> I wrote a script that converts a file with all of the motor and joint positions of the robot during a run to the visualization you see on the left. This involved mapping the motor and joint positions to an object that could be sent into the MuJoCo visualization simulator. <br>This allowed our team to not only tell but clearly show the results we produced.",
+        "I wrote a script that converts a file with all of the motor and joint positions of the robot during a run to the visualization you see.",
     },
     {
-      image: "https://i.ibb.co/fd2rF97/favicon.jpg",
-      name: "JoinMyCall",
-      link: "https://joinmycall.now.sh",
+      image: "https://i.ibb.co/Lt1f5Rf/ezgif-com-crop-1.gif",
+      name: "Goolge Drive Automatic Upload",
+      subtitle: "Dynamic Robotics Laboratory",
+      link: "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
-        "This app makes your colleagues take a connection/camera/mic test before joining a call. Hosts can create infinite JoinMyCall links to invite guests in meeting. Guests can either skip or do the connection test.",
+        "I wrote a script that interfaces with the robot’s controller to automatically send the log data to Google Drive every time a test is done on the robot.",
     },
     {
-      image:
-        "https://ph-files.imgix.net/32a6ac11-e7b0-4c3f-82fc-bc92c38dba34?auto=format",
-      name: "bulk-mail-cli",
-      link: "https://bulkmail.now.sh",
+      image: "https://i.ibb.co/HqWBpPz/shared-scooter.jpg",
+      name: "Go to market plan",
+      subtitle: "Shared Technologies",
+      link: "https://tryshared.com/",
       description:
-        "A command line interface (cli) application that sends automated and dynamic emails to the list.",
+        "I consulted on a go-to-market plan, developing a proprietary decision-making rubric for Shared. I led out customer discovery efforts across 30 US cities and consulted at the executive level regarding all customer discovery and market entry initiatives.",
+    },
+    {
+      image: "https://i.ibb.co/9WFGQb0/alf-arrow.jpg",
+      name: "New Client Discovery",
+      subtitle: "Albertazzi Law Firm",
+      link: "https://www.albertazzilaw.com/",
+      description:
+        "I wrote a program that goes onto the court website every day, scrapes the relevant cases, and stores them in a database that can be accessed by the law firm.",
+    },
+  ],
+};
+
+export const SOCIAL = {
+  title: "Available here",
+  data: [
+    { platform: "Twitter", link: `https://twitter.com/DylanAlbertazzi` },
+    {
+      platform: "LinkedIn",
+      link: `https://linkedin.com/in/dylan-albertazzi-b6781b17a/`,
+    },
+    {
+      platform: "GitHub",
+      link: `https://github.com/dylan-albertazzi`,
     },
   ],
 };
