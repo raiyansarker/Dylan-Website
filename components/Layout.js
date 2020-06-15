@@ -70,7 +70,7 @@ function Layout({ children, isHomepage, secondaryPage, noHead = false }) {
   const [theme, setTheme] = useState(onLoadTheme);
   const [mounted, setMounted] = useState(false);
   const switchTheme = () => {
-    const setTo = theme === "dark" ? "light" : "dark";
+    const setTo = theme === "light" ? "light" : "dark";
 
     setTheme(setTo);
   };
