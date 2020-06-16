@@ -36,16 +36,20 @@ export const PROJECTS = {
     {
       image: "https://i.ibb.co/xsgr0tk/ezgif-com-crop-2.gif",
       name: "Cassie Visualization",
-      subtitle: "Dynamic Robotics Laboratory",
-      link: "https://mime.oregonstate.edu/research/drl/robots/cassie/",
+      subtitle: "Dynamic Robotics Lab",
+      link: "",
+      link_affiliation:
+        "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
         "I wrote a script that converts a file with all of the motor and joint positions of the robot during a run to the visualization you see.",
     },
     {
       image: "https://i.ibb.co/Lt1f5Rf/ezgif-com-crop-1.gif",
       name: "Goolge Drive Automatic Upload",
-      subtitle: "Dynamic Robotics Laboratory",
-      link: "https://mime.oregonstate.edu/research/drl/robots/cassie/",
+      subtitle: "Dynamic Robotics Lab",
+      link: "/writings/Automate-File-Uploads-to-GDrive",
+      link_affiliation:
+        "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
         "I wrote a script that interfaces with the robot’s controller to automatically send the log data to Google Drive every time a test is done on the robot.",
     },
@@ -53,7 +57,8 @@ export const PROJECTS = {
       image: "https://i.ibb.co/HqWBpPz/shared-scooter.jpg",
       name: "Go to market plan",
       subtitle: "Shared Technologies",
-      link: "https://tryshared.com/",
+      link: "",
+      link_affiliation: "https://tryshared.com/",
       description:
         "I consulted on a go-to-market plan, developing a proprietary decision-making rubric for Shared. I led out customer discovery efforts across 30 US cities and consulted at the executive level regarding all customer discovery and market entry initiatives.",
     },
@@ -61,7 +66,8 @@ export const PROJECTS = {
       image: "https://i.ibb.co/9WFGQb0/alf-arrow.jpg",
       name: "New Client Discovery",
       subtitle: "Albertazzi Law Firm",
-      link: "https://www.albertazzilaw.com/",
+      link: "",
+      link_affiliation: "https://www.albertazzilaw.com/",
       description:
         "I wrote a program that goes onto the court website every day, scrapes the relevant cases, and stores them in a database that can be accessed by the law firm.",
     },

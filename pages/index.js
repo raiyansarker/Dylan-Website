@@ -30,6 +30,7 @@ function freshWriting(date) {
 
 var subtitleStyle = {
   color: "#222",
+  marginTop: "0px",
 };
 
 function Homepage({ writings }) {
@@ -77,7 +78,14 @@ function Homepage({ writings }) {
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
                 {PROJECTS.data.map(
-                  ({ image, name, description, link, subtitle }) => (
+                  ({
+                    image,
+                    name,
+                    description,
+                    link,
+                    subtitle,
+                    link_affiliation,
+                  }) => (
                     <div key={link}>
                       <img
                         src={image}
@@ -86,16 +94,27 @@ function Homepage({ writings }) {
                           width: "200px",
                           marginLeft: "10px",
                           borderStyle: "solid",
+                          borderRadius: "8px",
+                          borderWidth: "4px",
                         }}
                       />
                       <li key={name}>
                         <a
                           href={link}
-                          target="_blank"
+                          // target="_blank"
                           rel="noopener noreferrer nofollow"
                         >
                           {name}
-                          <p style={subtitleStyle}>{subtitle}</p>
+                        </a>
+                        <a
+                          href={link_affiliation}
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                        >
+                          <p style={subtitleStyle}>
+                            &nbsp; &nbsp;
+                            {subtitle}
+                          </p>
                         </a>
 
                         <span className="darker">{description}</span>

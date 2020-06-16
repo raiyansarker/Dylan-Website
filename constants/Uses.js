@@ -106,7 +106,7 @@ export const AFFILIATIONS = [
       {
         name: "Dynamic Robotics Laboratory | OSU",
         description:
-          "Where I learned Python. Primarily worked on Data management and Visualization",
+          "Where I learned Python. Primarily worked on Data Management and Visualization",
         link: "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       },
       {
