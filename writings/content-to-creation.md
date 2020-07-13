@@ -17,7 +17,7 @@ A tool to turn Pinterest recipes into grocery lists.
 
 ---
 
-Over the last four months I have been building Pinterlist, my first web app. My goal, going from content to creation. 
+Over the last four months I have been building Pinterlist, my first web app. My goal, going from consumption to creation. 
 
 A few months ago I was sitting there thinking, I am about to graduate college, I study computer science, and I have nothing to show for it. No way to show the world that I actually did learn some stuff in my time at college. It was that moment where I realized that it didn't matter how many courses I had done, or tutorials I had watched. If I didn't have anything to show for it, it was all in vain. The reason I learned to code was to create but somewhere along the way I got caught in the weeds telling my self, just one more tutorial series, then I can do something cool.
 
