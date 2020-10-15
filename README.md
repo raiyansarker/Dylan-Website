@@ -1,6 +1,6 @@
-# Repo for Telmo's Website
+# Repo for Dylan's Website
 
-This repo contains the code that is being used [here](https://telmo.im)
+This repo contains the code that is being used [here](https://dylanalbertazzi.com)
 
 ---
 
@@ -34,9 +34,9 @@ There are two ways you can deploy this site to Netlify:
 npm run build:static
 ```
 
-If you face any issue while refreshing the routes, you can modify next.config.js 
+If you face any issue while refreshing the routes, you can modify next.config.js
 
-If your blog name is writings/comparision-operaror-in-javascript.md you can add code as 
+If your blog name is writings/comparision-operaror-in-javascript.md you can add code as
 shown below, becuase writings/[slug].js looks for slug which can be passed.
 
 ```
@@ -49,5 +49,3 @@ exportPathMap: async function(defaultPathMap, { dev, dir, outDir, distDir, build
     }
 }
 ```
-
-Just make sure to remove any references of my name and use yours 🙂

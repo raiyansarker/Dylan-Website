@@ -33,6 +33,7 @@ var subtitleStyle = {
   marginTop: "0px",
 };
 
+
 function Homepage({ writings }) {
   const [index, setIndex] = useState(0);
   const avatar = `/images/Avatar.jpg`;
@@ -63,9 +64,10 @@ function Homepage({ writings }) {
               <Col md={12}>
                 Hi there and welcome 👋🏻.
                 <br />
-                I'm a full-stack engineer. I've been coding for 6+ years and
-                have loved every day of it. I've worked with small businesses,
-                startups, and research labs.
+                I'm a full-stack engineer with dreams of creating businesses. 
+                I've been coding for 6+ years and have loved every day of it. 
+                I've worked with small businesses, startups, and research labs.
+
               </Col>
             </Row>
             <hr />

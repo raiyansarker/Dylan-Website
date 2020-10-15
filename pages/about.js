@@ -9,13 +9,19 @@ const TextTransition = dynamic(() => import("react-text-transition"), {
 
 import Layout from "../components/Layout";
 import Icon from "../components/Icon";
-import { PRESENT, SKILLS } from "../constants/Stack";
+import { PRESENT, SKILLS, CERTIFICATIONS } from "../constants/Stack";
 import { AFFILIATIONS } from "../constants/Uses";
+
 
 function About() {
   const [index, setIndex] = useState(0);
   const avatar = `/images/Avatar.jpg`;
 
+  var subtitleStyle = {
+  color: "#222",
+  marginTop: "0px",
+  };
+  
   useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
@@ -39,7 +45,7 @@ function About() {
           </h1>
 
           <div className="about-intro">
-            <h3>What I've worked with so far</h3>
+            <h3>My daily stack</h3>
             <Row style={{ marginTop: 30 }}>
               {PRESENT.map((s) => (
                 <Col
@@ -54,30 +60,64 @@ function About() {
               ))}
             </Row>
             <hr />
-            {AFFILIATIONS.map(({ title, stack }) => (
-              <>
-                <h3>{title}</h3>
-                <ul
-                  style={{ marginTop: "0px" }}
-                  className="uses-list"
-                  key={title}
-                >
-                  {stack.map(({ name, description, link }) => (
-                    <li key={name}>
-                      <a
-                        href={link}
-                        target="_blank"
-                        rel="noopener noreferrer nofollow"
-                      >
-                        {name}
-                      </a>
-                      <span>{description}</span>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            ))}
-            <hr />
+            <>
+            <h2>{CERTIFICATIONS.title}</h2>
+            <Row style={{ marginTop: 30 }}>
+              <ul
+                className="uses-list"
+                style={{ marginTop: "0px", marginBottom: "0px" }}
+              >
+                {CERTIFICATIONS.data.map(
+                  ({
+                    image,
+                    name,
+                    description,
+                    link,
+                    subtitle,
+                    link_affiliation,
+                  }) => (
+                    <div key={link}>
+                      <img
+                        src={image}
+                        alt={`Project - ${name}`}
+                        style={{
+                          width: "200px",
+                          marginLeft: "10px",
+                          borderStyle: "none",
+                         
+                        }}
+                      />
+                      <li key={name}>
+                        <a
+                          href={link}
+                          // target="_blank"
+                          rel="noopener noreferrer nofollow"
+                        >
+                          {name}
+                        </a>
+                        <a
+                          href={link_affiliation}
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                          >
+                            <br />
+                          {/* <p style={subtitleStyle}>
+                             &nbsp;
+                            {subtitle}
+                          </p> */}
+                        </a>
+
+                        <span className="darker">{description}</span>
+                      </li>
+
+                      <hr />
+                    </div>
+                  )
+                )}
+              </ul>
+            </Row>
+            </>
+           
             <Row>
               <Col md={12}>
                 <h3>A bit more about me...</h3>
@@ -109,6 +149,31 @@ function About() {
                 days are long and the sunsets are colorful.
               </Col>
             </Row>
+            <hr />
+            {AFFILIATIONS.map(({ title, stack }) => (
+              <>
+                <h3>{title}</h3>
+                <ul
+                  style={{ marginTop: "0px" }}
+                  className="uses-list"
+                  key={title}
+                >
+                  {stack.map(({ name, description, link }) => (
+                    <li key={name}>
+                      <a
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                      >
+                        {name}
+                      </a>
+                      <span>{description}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ))}
+            
             <hr />
             Follow me on{" "}
             <a

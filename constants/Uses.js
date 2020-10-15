@@ -82,10 +82,16 @@ export const AFFILIATIONS = [
   {
     title: "Current Affiliations",
     stack: [
+       {
+        name: "Grub Guide",
+        description:
+          "Business intelligence for Bend's local restaurants",
+        link: "https://www.grubguide.io/",
+      },
       {
         name: "Oregon State University",
         description:
-          "Double major in Computer Science & Mechanical Engineering. Graduating Dec. 2020",
+          "Mechanical Engineering, minor Computer Science Graduating Mar. 2020",
         link: "https://oregonstate.edu/",
       },
       {
