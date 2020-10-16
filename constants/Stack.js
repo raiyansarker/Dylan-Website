@@ -34,11 +34,11 @@ export const PROJECTS = {
       image: "https://i.imgur.com/T2vek5P.gif",
       name: "Grub Guide",
       subtitle: "Business Intelligence for Local Restaurants 👉 Learn More 🎥",
-      link: "https://www.loom.com/share/8025e019bb9c4a54b25e09e3b054a8e0",
+      link: "/writings/GrubGuide-the-what-and-why",
       link_affiliation:
-        "https://www.loom.com/share/8025e019bb9c4a54b25e09e3b054a8e0",
+        "/writings/GrubGuide-the-what-and-why",
       description:
-        "My hometown of Bend, Oregon gets a lot of visitors per year (over 4.5 million). I created a tool that gives them an incredible and customized restaurant recommendation. Local restaurants can improve their offering by using visitor preferences to inform their business decisions.",
+        "My hometown of Bend, Oregon gets over 4.5 million visitors per year. I created a tool that gives them an incredible, customized restaurant recommendation. Local restaurants can improve their offering by using visitor preferences to inform their business decisions.",
     },
     {
       image: "https://i.imgur.com/XwSruEg.png",

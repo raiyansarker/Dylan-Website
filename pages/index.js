@@ -64,7 +64,7 @@ function Homepage({ writings }) {
               <Col md={12}>
                 Hi there and welcome 👋🏻.
                 <br />
-                I'm a full-stack engineer with dreams of creating businesses. 
+                I'm a full-stack engineer with a dream of creating businesses. 
                 I've been coding for 6+ years and have loved every day of it. 
                 I've worked with small businesses, startups, and research labs.
 
