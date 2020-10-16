@@ -33,7 +33,7 @@ export const PROJECTS = {
     {
       image: "https://i.imgur.com/T2vek5P.gif",
       name: "Grub Guide",
-      subtitle: "Business Intelligence for Local Restaurants",
+      subtitle: "Business Intelligence for Local Restaurants 👉 Learn More 🎥",
       link: "https://www.loom.com/share/8025e019bb9c4a54b25e09e3b054a8e0",
       link_affiliation:
         "https://www.loom.com/share/8025e019bb9c4a54b25e09e3b054a8e0",
@@ -43,7 +43,7 @@ export const PROJECTS = {
     {
       image: "https://i.imgur.com/XwSruEg.png",
       name: "Pinterlist",
-      subtitle: "Turn a Pinterest Recipe into a Grocery List",
+      subtitle: "Turn a Pinterest Recipe into a Grocery List 👉 Learn More 🎥",
       link: "https://www.loom.com/share/343e5e96fe664e8097c3a6ad06c6b831?from_recorder=1",
       link_affiliation:
         "http://www.pinterlist.co/",

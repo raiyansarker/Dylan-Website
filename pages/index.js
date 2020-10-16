@@ -88,7 +88,8 @@ function Homepage({ writings }) {
                     subtitle,
                     link_affiliation,
                   }) => (
-                    <div key={link}>
+                      <div key={link}>
+                        <a href={link}>
                       <img
                         src={image}
                         alt={`Project - ${name}`}
@@ -99,7 +100,8 @@ function Homepage({ writings }) {
                           borderRadius: "8px",
                           borderWidth: "4px",
                         }}
-                      />
+                          />
+                          </a>
                       <li key={name}>
                         <a
                           href={link}
