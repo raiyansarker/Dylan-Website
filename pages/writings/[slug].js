@@ -21,7 +21,7 @@ function Writing({ content, data }) {
 
       <Layout secondaryPage noHead>
         <div style={{ marginTop: 50 }}>
-          <Link href="/" as="/">
+          <Link href="/blog" as="/blog">
             <a className="back-button">back</a>
           </Link>
           <h1 className="writing-title-h1">{title}</h1>
@@ -61,7 +61,7 @@ function Writing({ content, data }) {
               }}
             />
 
-            <div className="twitter-follow">
+            {/* <div className="twitter-follow">
               If you liked this post I'm sure you'll love what I usually share
               on{"  "}
               <a
@@ -71,7 +71,7 @@ function Writing({ content, data }) {
                 Twitter
               </a>
               , I share about what I'm working on and coding tips ✌️
-            </div>
+            </div> */}
           </div>
         </div>
       </Layout>

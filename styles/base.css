@@ -483,3 +483,9 @@ footer {
     display: none;
   }
 }
+
+.writing-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
