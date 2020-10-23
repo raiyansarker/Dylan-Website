@@ -14,10 +14,10 @@ function MyApp({ Component, pageProps }) {
     script.src = "./gTagScript.js";
     script.async = true;
 
-    document.body.appendChild(script);
+    document.head.appendChild(script);
 
   return () => {
-    document.body.removeChild(script);
+    document.head.removeChild(script);
   }
   }, []);  
   
