@@ -1,10 +1,26 @@
 import Head from "next/head";
+import { useEffect } from "react";
 
 import "../styles/base.css";
 
 function MyApp({ Component, pageProps }) {
   const og = pageProps.data?.og;
   const title = pageProps.data?.title;
+
+  //add script tag for google analytics
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = "./gTagScript.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+
+  return () => {
+    document.body.removeChild(script);
+  }
+  }, []);  
+  
 
   return (
     <>
@@ -34,13 +50,7 @@ function MyApp({ Component, pageProps }) {
         
         {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-66J1QY576Q"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-66J1QY576Q');
-        </script>
+       
         <script
           async
           src="https://platform.twitter.com/widgets.js"
