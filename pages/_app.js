@@ -31,7 +31,16 @@ function MyApp({ Component, pageProps }) {
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👍</text></svg>"
         />
         <link rel="apple-touch-icon" href="https://i.imgur.com/ows3z1X.png" />
+        
+        {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-66J1QY576Q"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
 
+          gtag('config', 'G-66J1QY576Q');
+        </script>
         <script
           async
           src="https://platform.twitter.com/widgets.js"
