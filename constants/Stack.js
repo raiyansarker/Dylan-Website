@@ -44,9 +44,9 @@ export const PROJECTS = {
       image: "https://i.imgur.com/XwSruEg.png",
       name: "Pinterlist",
       subtitle: "Turn a Pinterest Recipe into a Grocery List 👉 Learn More 🎥",
-      link: "https://www.loom.com/share/343e5e96fe664e8097c3a6ad06c6b831?from_recorder=1",
+      link: "/writings/content-to-creation",
       link_affiliation:
-        "http://www.pinterlist.co/",
+        "/writings/content-to-creation",
       description:
         "My wife is an avid Pinterest user. One day she was making a grocery list for the week and was getting frustrated that she had to sift through a mountain of ads and prose in order to find the ingredients she needed. This tool aims to simplify the process by giving you the recipe directly!",
     },

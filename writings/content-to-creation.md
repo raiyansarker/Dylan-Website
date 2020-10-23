@@ -25,4 +25,4 @@ A few months ago I was sitting there thinking, I am about to graduate college, I
 
 [Pinterlist](http://pinterlist.co)
 
-If you want to read the technical progression of Pinterlist over the last few months read through the thread [here](https://twitter.com/DylanAlbertazzi/status/1250830522172899328?s=20).
+> If you want to read the technical progression of Pinterlist over the last few months read through the thread [here](https://twitter.com/DylanAlbertazzi/status/1250830522172899328?s=20).
