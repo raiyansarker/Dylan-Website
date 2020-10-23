@@ -28,7 +28,7 @@ export const SKILLS = [
 ];
 
 export const PROJECTS = {
-  title: "Have a look around",
+  title: "A look into my work",
   data: [
     {
       image: "https://i.imgur.com/T2vek5P.gif",
