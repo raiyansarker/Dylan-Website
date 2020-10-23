@@ -7,19 +7,19 @@ function MyApp({ Component, pageProps }) {
   const og = pageProps.data?.og;
   const title = pageProps.data?.title;
 
-  //add script tag for google analytics
-  useEffect(() => {
-    const script = document.createElement('script');
+  // //add script tag for google analytics
+  // useEffect(() => {
+  //   const script = document.createElement('script');
 
-    script.src = "./gTagScript.js";
-    script.async = true;
+  //   script.src = "./gTagScript.js";
+  //   script.async = true;
 
-    document.head.appendChild(script);
+  //   document.head.appendChild(script);
 
-  return () => {
-    document.head.removeChild(script);
-  }
-  }, []);  
+  // return () => {
+  //   document.head.removeChild(script);
+  // }
+  // }, []);  
   
 
   return (
@@ -50,7 +50,7 @@ function MyApp({ Component, pageProps }) {
         
         {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-66J1QY576Q"></script>
-       
+       <script src="/gTagScript.js" async></script>
         <script
           async
           src="https://platform.twitter.com/widgets.js"
