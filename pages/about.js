@@ -174,16 +174,7 @@ function About() {
               </>
             ))}
             
-            <hr />
-            Follow me on{" "}
-            <a
-              href="https://twitter.com/DylanAlbertazzi"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              Twitter
-            </a>
-            . That's where I usually hangout.
+         
           </div>
         </div>
       </Layout>

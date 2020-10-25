@@ -153,20 +153,7 @@ function Homepage({ writings }) {
             </Row>
           </>
           <InviteBox />
-          <hr />
-          <Row className="uses-intro">
-            <Col>
-              Follow me on{" "}
-              <a
-                href={`https://twitter.com/DylanAlbertazzi`}
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-              >
-                Twitter
-              </a>
-              . That's where I usually hangout.
-            </Col>
-          </Row>
+        
         </div>
       </Layout>
     </>

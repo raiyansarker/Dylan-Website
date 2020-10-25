@@ -11,7 +11,7 @@ author:
 
 Re-living the stories from my solo trip tracing from Iceland to Morocco the Summer of 2018.
 
-This Sunday is about the night I flew into Morocco and will never forget.
+This Sunday is about a night in Morocco I will never forget.
 
 ---
 
