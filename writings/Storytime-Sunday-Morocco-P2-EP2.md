@@ -1,5 +1,5 @@
 ---
-title: "Morocco 🇲🇦 | Storytime Sunday EP6 📖"
+title: "Morocco 🇲🇦 | Storytime Sunday EP2 📖"
 date: "2018-07-04"
 og:
   description: "The rest of Morocco"
@@ -18,6 +18,8 @@ This Sunday contiunes my adventure from the first night and more.
 <img src="https://lh3.googleusercontent.com/jnbtoktLwt0KNjFWud_Zn6Ls8TPO0NwKdmzPQaPbReCKPeZlMUpclC73oYUuV0Vx1tq9bOynHzJBATgQhJovbJA3-FtDhr7E7nygJTNpd4bcSvKfmaQsOFBF3kit-f9ntRVYjVuDEg=w2400" alt="Mason's house in Morocco" style="width:75%;height:auto;">
 
 ---
+
+Continuing from last week...
 
 We got in, me first then her. The elevator was small, and we were crammed in because of my backpack. She hit the 7th floor and we started moving up. "Okay, 7th floor. That's where I'm at if I need to make an escape." There was a "ding" and the doors opened onto another set of unlit hallways stretching down on either side far enough that I couldn't make out the doors on the end. "Get out, get out" the lady said in a nice voice. I think she could tell I was reluctant. The whole time I was asking her if this was a hostel, and she was telling me yes. I didn't believe her but I was in this far. I was just praying that I would make it out. She led me to the very last door in the hallway and got out a set of keys to unlock the door. She slowly opened it to another dark room where all I could make out was a coffee table with a whiskey decanter sitting on it and a couple of headshots of men with some big beards and turbans. Someone was in the other room watching tv and another in the kitchen making something. And with a deep breath, half bracing for impact and half ready to scream, in I went.
 
