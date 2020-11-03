@@ -14,12 +14,12 @@ from data stored in objects and Arrays.
 Let's take a look on how to destructure an object:
 
 ```js
-const info = { name: 'Telmo', age: 33, twitterHandler: '@telmo' }
+const info = { name: "Telmo", age: 33, twitterHandler: "@telmo" };
 
 // Destructure data from `info`
-const { name, age, twitterHandler } = info
+const { name, age, twitterHandler } = info;
 
-console.log(name, age, twitterHandler) // Telmo 33 @telmo
+console.log(name, age, twitterHandler); // Telmo 33 @telmo
 ```
 
 What we've done here? Instead of accessing the data through `info.name`, `info.age`, etc;
@@ -48,12 +48,10 @@ from [here](https://jsonplaceholder.typicode.com/todos/1) and it should return s
 Let's build a simple component so we can then extract the data from the API call:
 
 ```js
-import React from 'react'
+import React from "react";
 
 export default function MyComponent() {
-  return (
-    <div>My amazing component 🚀</div>
-  )
+  return <div>My amazing component 🚀</div>;
 }
 ```
 
@@ -63,10 +61,10 @@ Great, now let's assume the data from the API call is being passed to the compon
 through `props`, we can either extract the data before we `return` our component:
 
 ```js:!-3,4,7-12
-import React from 'react'
+import React from "react";
 
 export default function MyComponent(props) {
-  const { userId, id, title, completed } = props
+  const { userId, id, title, completed } = props;
 
   return (
     <div>
@@ -75,17 +73,17 @@ export default function MyComponent(props) {
       Task title: {title}
       Completed: {completed}
     </div>
-  )
+  );
 }
 ```
 
 Looks great, but we can still save at least one least in your code, take a look:
 
 ```js:!-3,-4
-import React from 'react'
+import React from "react";
 
 export default function MyComponent({ userId, id, title, completed }) {
-  const { userId, id, title, completed } = props
+  const { userId, id, title, completed } = props;
 
   return (
     <div>
@@ -94,7 +92,7 @@ export default function MyComponent({ userId, id, title, completed }) {
       Task title: {title}
       Completed: {completed}
     </div>
-  )
+  );
 }
 ```
 
@@ -108,15 +106,15 @@ to extract the data through `const { ... } = props`.
 Check the example bellow and notice the comments:
 
 ```js
-const myTags = ['React', 'Next', 'Gatsby']
+const myTags = ["React", "Next", "Gatsby"];
 
 // Get first element of the array
-console.log(myTags[0]) // React
+console.log(myTags[0]); // React
 
 // Destructuring the array
-const [tag] = myTags
+const [tag] = myTags;
 
-console.log(tag) // React
+console.log(tag); // React
 ```
 
 Looks way better.
@@ -157,34 +155,30 @@ Let's destructure this sucker using the same component as before,
 assuming this data is being passed to the component `props`:
 
 ```js
- // Destructuring happening right here within `MyComponent()`
-export default function MyComponent({
-  data: { deliveries }
-}) {
-  return (
-    deliveries.map(delivery => {
-      const {
-        id,
-         // Beauty of destructuring arrays
-        shipments: [shipment]
-      } = delivery
-      // Destructuring data from the first array of `shipments`
-      const { number, products } = shipment
+// Destructuring happening right here within `MyComponent()`
+export default function MyComponent({ data: { deliveries } }) {
+  return deliveries.map((delivery) => {
+    const {
+      id,
+      // Beauty of destructuring arrays
+      shipments: [shipment],
+    } = delivery;
+    // Destructuring data from the first array of `shipments`
+    const { number, products } = shipment;
 
-      return (
-        <div>
-          Order with ID {id} and tracking shipment
-          number {number}
-
-          <ul>
-            {products.map(({ title }) => ( // Destructuring happening here within `()`
-              <li>{title}</li>
-            ))}
-          </ul>
-        </div>
-      )
-    })
-  )
+    return (
+      <div>
+        Order with ID {id} and tracking shipment number {number}
+        <ul>
+          {products.map((
+            { title } // Destructuring happening here within `()`
+          ) => (
+            <li>{title}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  });
 }
 ```
 
