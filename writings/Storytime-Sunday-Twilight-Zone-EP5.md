@@ -1,5 +1,5 @@
 ---
-title: "The Twilight Zone 🌌 | Storytime Sunday EP9 📖"
+title: "The Twilight Zone 🌌 | Storytime Sunday EP5 📖"
 date: "2018-07-11"
 og:
   description: "A close call at 4:00 AM"
@@ -19,9 +19,9 @@ This Sunday is about a town that seemed to be separate from the rest of the worl
 
 ---
 
-I've dubbed Luton the Twilight Zone. I arrived at 10:15 AM and had a 20 hour layover before my 6 AM flight the next morning. I booked an AirBnb and could check in when my host got home from work at 5:30. With some time to kill I took the bus to the mall and made my way in and out of almost every store striking up conversations with the workers. Every single person I talked to was having a bad day. And when I looked around everyone did seem sad.
+I've dubbed Luton the Twilight Zone. I arrived at 10:15 AM and had a 20 hour layover before my 6 AM flight the next morning. I booked an AirBnb where could check in when my host got home from work at 5:30. With some time to kill, I took the bus to the mall and made my way in and out of almost every store striking up conversations with the workers. To my surprise, every single person I talked to was having a bad day.
 
-After a couple hours in the mall I made my way to a bowling alley to get some frames in. While I was playing a man came up to me, either on drugs or with a mental disability, very keen to strike up a conversation. I was happy to oblige as I didn't have many people to talk to. It started getting weird though when he asked for my phone number. I told him that my phone didn't work in the UK and that it wouldn't be of any use. He asked a few more times and then asked to bowl a frame, which I let him do, then went on his way.
+After a couple of hours in the mall, I made my way to a bowling alley to get some frames in. While I was playing a man came up to me, either on drugs or with a mental disability, very keen to strike up a conversation. I was happy to oblige as I didn't have many people to talk to. It started getting weird though when he asked for my phone number. I told him that my phone didn't work in the UK and that it wouldn't be of any use. He asked a few more times and then asked to bowl a frame, which I let him do, then went on his way.
 
 <img src="https://lh3.googleusercontent.com/lID92hlBYfyDuUdSo_6hYKRAckIf6Ovoly03t_gwPTTqsMY6SO_QVxjWdm_nRGGuswsX1lT6k4n3LwUEFxiOPhnHx4dhzV2gDWDPk3KjPI_SFS5_yoIrs1XZCsIrgIQ1LNuuFFvU0Q=w2400" alt="Outside the Luton Mall" style="width:75%;height:auto;">
 
@@ -33,7 +33,7 @@ After I finished two games of bowling I went to see what else I could do for fun
 
 That went on for another minute before the girl who owed the money punched the other one in the face and started yanking her hair. I was standing 20 ft. away jaw dropped at what I was watching. All of a sudden a security guard popped out, broke them up, and they went on their way.
 
-I went to Starbucks to use their wifi and charge my phone. I was sitting there listening to a meeting at the table next to me where this guy was trying to get a lady to buy into a network marketing scheme promising her the opportunity to make lots of money if she joined. To my surprise, the guy from the bowling alley who wanted my phone number walked into Starbucks. A mile and a half away, what are the odds? He came and asked for my phone number again, and I re-explained how it wouldn't work. He got the picture and struck a conversation with someone else, probably asking for their phone number. Eventually, I made my way to the Airbnb and stayed with the first friendly people I'd met all day.
+Still shocked, I headed to Starbucks to use their wifi and charge my phone. I was sitting there listening to a meeting at the table next to me where this guy was trying to get a lady to buy into a network marketing scheme promising her the opportunity to make lots of money if she joined. To my surprise, the guy from the bowling alley who wanted my phone number walked into Starbucks. A mile and a half away, what are the odds? He came and asked for my phone number again, and I re-explained how it wouldn't work. He got the picture and struck a conversation with someone else, probably asking for their phone number. Eventually, I made my way to the Airbnb and stayed with the first friendly people I'd met all day.
 
 <img src="https://lh3.googleusercontent.com/ijw7ge_D95a0hjDFNex235tuMEIcUKevTiYUjw-B-NXqm2xx--60SSiKntXklONOiu7GyE1qYEFLdny1qDUlgOhJPh33iUOZROVrZee3x9Nc77uuQZbXHj1kUQrNL3yirVyBI1YUuA=w2400" alt="Outside the Luton Mall" style="width:100%;height:auto;">
 
@@ -49,9 +49,9 @@ As soon as I turned onto the street they all turned to look at me as I approache
 
 I was half expecting that response but it still threw me off and I said "cool" in a voice that sounded like a voice crack from puberty.
 
-Next, I walked by the men by the trashcan and gave a small head nod of acknowledgment. They just stared at me with their cigarettes as I passed. I looked back once a got a block away and they were both just standing there.
+Next, I walked past the men by the trashcan and gave a small head nod of acknowledgment. They just stared at me with their cigarettes as I passed. I looked back once a got a block away and they were both just standing there.
 
-A couple of blocks further I started to approach the guy on the BMX bike. I was facing forwards towards the bus station and he was sitting to my right on the other side of the street, facing me. As I started to cross he started riding his bike slowly towards me. I said with as much confidence as I could muster,
+A couple of blocks further I started to approach the guy on the BMX bike. I was facing forwards towards the bus station and he was sitting to my right on the other side of the street, facing me. As I crossed he started riding his bike slowly towards me. I said with as much confidence as I could muster,
 
     "Hey man, how's it going?"
 
