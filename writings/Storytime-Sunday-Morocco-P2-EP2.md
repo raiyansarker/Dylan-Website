@@ -1,5 +1,5 @@
 ---
-title: "Morocco 🇲🇦 | Storytime Sunday EP2 📖"
+title: "Morocco 🇲🇦 | Storytime Sunday EP 2 📖"
 date: "2018-07-04"
 og:
   description: "The rest of Morocco"

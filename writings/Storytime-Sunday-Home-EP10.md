@@ -1,5 +1,5 @@
 ---
-title: "Heading Home 🇺🇸 | Storytime Sunday EP10 📖"
+title: "Heading Home 🇺🇸 | Storytime Sunday EP 10 📖"
 date: "2018-07-12"
 og:
   description: "Heading home!"

@@ -1,5 +1,5 @@
 ---
-title: "Cypress 🇨🇾 | Storytime Sunday EP8 📖"
+title: "Cypress 🇨🇾 | Storytime Sunday EP 8 📖"
 date: "2018-07-10"
 og:
   description: "3 AM airport hike."

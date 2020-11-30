@@ -1,5 +1,5 @@
 ---
-title: "Cornwall 🐦 | Storytime Sunday EP4 📖"
+title: "Cornwall 🐦 | Storytime Sunday EP 4 📖"
 date: "2018-06-24"
 og:
   description: "The true Cornish experience"

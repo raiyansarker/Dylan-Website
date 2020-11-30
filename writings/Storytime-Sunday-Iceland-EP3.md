@@ -1,5 +1,5 @@
 ---
-title: "Iceland 🇮🇸 | Storytime Sunday EP3 📖"
+title: "Iceland 🇮🇸 | Storytime Sunday EP 3 📖"
 date: "2018-06-22"
 og:
   description: "A rocky start and a new friend."

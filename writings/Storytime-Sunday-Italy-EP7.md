@@ -1,5 +1,5 @@
 ---
-title: "Italy 🇮🇹 | Storytime Sunday EP7 📖"
+title: "Italy 🇮🇹 | Storytime Sunday EP 7 📖"
 date: "2018-07-08"
 og:
   description: "A lesson learnt the hard way"

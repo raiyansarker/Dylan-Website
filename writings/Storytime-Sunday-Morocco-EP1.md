@@ -1,5 +1,5 @@
 ---
-title: "Morocco, Night One 🇲🇦 | Storytime Sunday EP1 📖"
+title: "Morocco, Night One 🇲🇦 | Storytime Sunday EP 1 📖"
 date: "2018-07-04"
 og:
   description: "One of the scariest nights of my life"
