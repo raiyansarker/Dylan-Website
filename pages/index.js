@@ -63,10 +63,15 @@ function Homepage({ writings }) {
             <Row>
               <Col md={12}>
                 Hi there and welcome 👋🏻.
+                 <br />
+                This website documents my journey from consumption to creation.
                 <br />
-                I'm a full-stack engineer with a dream of creating businesses. 
+                I'm a full-stack engineer who loves business enabling technology. 
+                <br />
                 I've been coding for 6+ years and have loved every day of it. 
+                <br />
                 I've worked with small businesses, startups, and research labs.
+                
 
               </Col>
             </Row>

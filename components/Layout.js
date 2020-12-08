@@ -33,7 +33,7 @@ export function InviteBox() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      I'm available for hire. Reach out via{" "}
+      Let's work together! Reach out via{" "}
       <a
         href="mailto: d.albertazzi10@gmail.com"
         target="_blank"
@@ -41,7 +41,7 @@ export function InviteBox() {
       >
         Email
       </a>{" "}
-      or DM me on Twitter. ✌️
+      or DM me on Twitter.
     </div>
   );
 }

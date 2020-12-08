@@ -28,7 +28,7 @@ export const SKILLS = [
 ];
 
 export const PROJECTS = {
-  title: "Cool stuff I've done",
+  title: "My Creations",
   data: [
     {
       image: "https://i.imgur.com/T2vek5P.gif",
@@ -118,11 +118,13 @@ export const CERTIFICATIONS = {
 export const SOCIAL = {
   title: "Available here",
   data: [
-    { platform: "Twitter", link: `https://twitter.com/DylanAlbertazzi` },
+    { platform: "YouTube", link: `https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q` },
+    
     {
       platform: "LinkedIn",
       link: `https://linkedin.com/in/dylan-albertazzi-b6781b17a/`,
     },
+    { platform: "Twitter", link: `https://twitter.com/DylanAlbertazzi` },
     {
       platform: "GitHub",
       link: `https://github.com/dylan-albertazzi`,
