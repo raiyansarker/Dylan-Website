@@ -121,7 +121,13 @@ function About() {
             <Row>
               <Col md={12}>
                 <h3>A bit more about me...</h3>
-                I started coding because of my desire to run a business. I know
+
+I study Mechanical Engineering in college and added a CS minor later when I found myself enthralled with coding. In the Spring of 2020, I felt like I was growing tremendously but couldn't explain it to my wife in a tangible way. No one cared that I did another course on Python. The adage "Actions speak louder than words" is true. Telling isn't enough, I needed to show. Thus started my journey from consumption to creation that led to building GrubGuide, Pinterlist, a blog, and now YouTube 👉  DylanAlbertazzi.com.
+
+My long-term dream is a life in relationship with people and growing businesses. 
+
+I hope as you watch you are not just learning facts but connecting dots in the bigger picture that is the project, your job, and your direction in life.
+                {/* I started coding because of my desire to run a business. I know
                 lots of people say they want to run a business, but it’s a true
                 fascination for me. I spent my high school years coming home
                 from baseball practice to read business books until I fell
@@ -146,7 +152,7 @@ function About() {
                 <br />
                 When I’m not coding I’m spending time in Corvallis, OR with my
                 wife and our friends. My favorite time of year is June when the
-                days are long and the sunsets are colorful.
+                days are long and the sunsets are colorful. */}
               </Col>
             </Row>
             <hr />
