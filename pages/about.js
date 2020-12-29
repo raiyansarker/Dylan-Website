@@ -45,21 +45,7 @@ function About() {
           </h1>
 
           <div className="about-intro">
-            <h3>My daily stack</h3>
-            <Row style={{ marginTop: 30 }}>
-              {PRESENT.map((s) => (
-                <Col
-                  md={2}
-                  xs={4}
-                  key={s}
-                  style={{ textAlign: "center", marginBottom: 40 }}
-                >
-                  <Icon type={s} />
-                  <div className="stack-name">{s}</div>
-                </Col>
-              ))}
-            </Row>
-            <hr />
+           
             <>
             <h2>{CERTIFICATIONS.title}</h2>
             <Row style={{ marginTop: 30 }}>
@@ -110,7 +96,8 @@ function About() {
                         <span className="darker">{description}</span>
                       </li>
 
-                      <hr />
+                      <br />
+
                     </div>
                   )
                 )}
@@ -118,46 +105,10 @@ function About() {
             </Row>
             </>
            
-            <Row>
-              <Col md={12}>
-                <h3>A bit more about me...</h3>
-
-I study Mechanical Engineering in college and added a CS minor later when I found myself enthralled with coding. In the Spring of 2020, I felt like I was growing tremendously but couldn't explain it to my wife in a tangible way. No one cared that I did another course on Python. The adage "Actions speak louder than words" is true. Telling isn't enough, I needed to show. Thus started my journey from consumption to creation that led to building GrubGuide, Pinterlist, a blog, and now YouTube 👉  DylanAlbertazzi.com.
-
-My long-term dream is a life in relationship with people and growing businesses. 
-
-I hope as you watch you are not just learning facts but connecting dots in the bigger picture that is the project, your job, and your direction in life.
-                {/* I started coding because of my desire to run a business. I know
-                lots of people say they want to run a business, but it’s a true
-                fascination for me. I spent my high school years coming home
-                from baseball practice to read business books until I fell
-                asleep. It’s just this desire deep down in me that it feels like
-                I was made for.
-                <br />
-                <br />
-                Through trial and error, I realized that the best way for me to
-                start a business is online. It’s best because all you need is a
-                computer, no investment or special equipment. That was over six
-                years ago and since then I’ve gotten to work on a lot of cool
-                things, some of which you can read about on the start page.
-                <br />
-                <br />
-                I focus on web development because it’s so tangible. If other
-                people can’t get your idea it’s useless. It lights me up to
-                bridge the gap from the elusive and smokey realm of ideas to the
-                concrete and understandable place of reality. Where others can
-                tangibly interact with an idea and make their life better
-                because of it.
-                <br />
-                <br />
-                When I’m not coding I’m spending time in Corvallis, OR with my
-                wife and our friends. My favorite time of year is June when the
-                days are long and the sunsets are colorful. */}
-              </Col>
-            </Row>
-            <hr />
+           
             {AFFILIATIONS.map(({ title, stack }) => (
               <>
+                <hr />
                 <h3>{title}</h3>
                 <ul
                   style={{ marginTop: "0px" }}
@@ -179,8 +130,22 @@ I hope as you watch you are not just learning facts but connecting dots in the b
                 </ul>
               </>
             ))}
+            <hr />
+          <h2>My daily stack</h2>
+            <Row style={{ marginTop: 30 }}>
+              {PRESENT.map((s) => (
+                <Col
+                  md={2}
+                  xs={4}
+                  key={s}
+                  style={{ textAlign: "center", marginBottom: 40 }}
+                >
+                  <Icon type={s} />
+                  <div className="stack-name">{s}</div>
+                </Col>
+              ))}
+            </Row>
             
-         
           </div>
         </div>
       </Layout>

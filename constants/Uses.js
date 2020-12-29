@@ -82,12 +82,7 @@ export const AFFILIATIONS = [
   {
     title: "Current Affiliations",
     stack: [
-       {
-        name: "Grub Guide",
-        description:
-          "Business intelligence for Bend's local restaurants",
-        link: "https://www.grubguide.io/",
-      },
+      
       {
         name: "Oregon State University",
         description:
@@ -96,7 +91,7 @@ export const AFFILIATIONS = [
       },
       {
         name: "Global Formula Racing | OSU",
-        description: "College capstone project. Data management.",
+        description: "AWS Cloud. College capstone project. Data management.",
         link: "https://www.global-formula-racing.com/en/about-us",
       },
       {
@@ -109,6 +104,12 @@ export const AFFILIATIONS = [
   {
     title: "Past Affiliations",
     stack: [
+       {
+        name: "Variance",
+        description:
+          "Software Engineering Intern",
+        link: "https://www.variance.com/",
+      },
       {
         name: "Dynamic Robotics Laboratory | OSU",
         description:

@@ -15,21 +15,31 @@ export const SKILLS = [
   "codes",
   "laughs",
   "reads",
+  "thinks",
   "makes websites",
   "creates",
   "makes mistakes",
   "helps",
   "follows Jesus",
-  "tweets",
-  "cuddles his dog",
   "creates bugs",
   "fixes bugs",
   "writes",
+  "explores",
 ];
 
 export const PROJECTS = {
-  title: "My Creations",
+  title: "My Work",
   data: [
+    {
+      image: "https://i.imgur.com/lo30qaF.png",
+      name: "Variance",
+      subtitle: "Software Engineering Intern",
+      link: "/writings/Internship-at-Variance",
+      link_affiliation:
+        "/writings/Internship-at-Variance",
+      description:
+        "Software Engineering Internship at Variance.",
+    },
     {
       image: "https://i.imgur.com/T2vek5P.gif",
       name: "Grub Guide",

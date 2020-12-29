@@ -18,9 +18,13 @@ const menu = [
     name: "blog",
   },
   {
-    path: "/uses",
-    name: "uses",
+    path: "/resume",
+    name: "resume",
   },
+  // {
+  //   path: "/uses",
+  //   name: "uses",
+  // },
 ];
 
 export function InviteBox() {
@@ -33,15 +37,16 @@ export function InviteBox() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      Let's work together! Reach out via{" "}
+      I'm graduating March of 2021 and am looking for a full time job.
+      <br />
+      Reach out via{ " " }
       <a
         href="mailto: d.albertazzi10@gmail.com"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
         Email
-      </a>{" "}
-      or DM me on Twitter.
+      </a>.
     </div>
   );
 }
