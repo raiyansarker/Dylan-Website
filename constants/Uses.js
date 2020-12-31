@@ -84,19 +84,19 @@ export const AFFILIATIONS = [
     stack: [
       
       {
-        name: "Oregon State University",
+        name: "Oregon State University 🎓",
         description:
-          "Mechanical Engineering, minor Computer Science Graduating Mar. 2020",
+          "BS, Mechanical Engineering, Minor Computer Science. Graduating Mar. 2021",
         link: "https://oregonstate.edu/",
       },
       {
-        name: "Global Formula Racing | OSU",
-        description: "AWS Cloud. College capstone project. Data management.",
+        name: "Global Formula Racing 📚",
+        description: "Senior Project Built on AWS Data management.",
         link: "https://www.global-formula-racing.com/en/about-us",
       },
       {
-        name: "Albertazzi Law Firm",
-        description: `In house dev, SEO, & content creation`,
+        name: "Albertazzi Law Firm 💼",
+        description: `SEO and Web Dev`,
         link: "https://www.albertazzilaw.com/",
       },
     ],
@@ -105,25 +105,25 @@ export const AFFILIATIONS = [
     title: "Past Affiliations",
     stack: [
        {
-        name: "Variance",
+        name: "Variance 👨🏻‍💻",
         description:
           "Software Engineering Intern",
-        link: "https://www.variance.com/",
+        link: "https://dylanalbertazzi.com/writings/Internship-at-Variance",
       },
       {
-        name: "Dynamic Robotics Laboratory | OSU",
+        name: "Dynamic Robotics Laboratory 🦿 ",
         description:
-          "Where I learned Python. Primarily worked on Data Management and Visualization",
+          "Research Assistant",
         link: "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       },
       {
-        name: "Shared Technologies",
-        description: "E-Scooter startup",
+        name: "Shared Technologies 🦿 ",
+        description: "Intern",
         link: "https://tryshared.com/",
       },
       {
-        name: "Young Life",
-        description: "Kids are awesome",
+        name: "Young Life 🙏🏼 ",
+        description: "Organizer and Mentor",
         link: "https://www.lg.com/levant_en/monitors/lg-24MP48HQ-P",
       },
     ],
