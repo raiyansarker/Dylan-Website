@@ -14,7 +14,7 @@ function Resume({ og }) {
         </div> */}
 
        
-       <iframe src="/images/Resume-For-Website.pdf" height="700" width="700"></iframe>
+       <iframe src="/images/Resume-For-Website.pdf" height="700px" width="100%"></iframe>
         
   
 
