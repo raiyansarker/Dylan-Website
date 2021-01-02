@@ -66,14 +66,14 @@ function Homepage({ writings }) {
                  <br />
                 {/* This website documents my journey from consumption to creation.
                 <br /> */}
-                I'm a full-stack engineer who loves business enabling technology. 
+                Full-stack engineer with a passion for business enabling technology. 
                 <br />
-                I've been coding for 6+ years and have loved every day of it. 
+                Coding for 6+ years and loved every day of it. 
                 <br />
-                I've worked with small businesses, startups, and research labs.
+                Brought growth to small businesses, startups, and research labs.
                 <br />
                 <br />
-                <h4>I'm graduating March of 2021 and am looking for a full time job.</h4>
+                <h4>Graduating March of 2021 and seeking a full time job.</h4>
                 
 
               </Col>

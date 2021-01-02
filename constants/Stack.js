@@ -13,16 +13,17 @@ export const PRESENT = [
 
 export const SKILLS = [
   "codes",
-  "laughs",
+  
   "reads",
   "thinks",
+  "laughs",
   "makes websites",
   "creates",
-  "makes mistakes",
+  // "makes mistakes",
   "helps",
-  "follows Jesus",
-  "creates bugs",
-  "fixes bugs",
+  // "follows Jesus",
+  // "creates bugs",
+  // "fixes bugs",
   "writes",
   "explores",
 ];
@@ -48,7 +49,7 @@ export const PROJECTS = {
       link_affiliation:
         "/writings/GrubGuide-the-what-and-why",
       description:
-        "My hometown of Bend, Oregon gets over 4.5 million visitors per year. I created a tool that gives them an incredible, customized restaurant recommendation. Local restaurants can improve their offering by using visitor preferences to inform their business decisions.",
+        "Dylan's hometown of Bend, Oregon gets over 4.5 million visitors per year. Created a tool that gives them an incredible, customized restaurant recommendation. Local restaurants can improve their offering by using visitor preferences to inform their business decisions.",
     },
     {
       image: "https://i.imgur.com/XwSruEg.png",
@@ -58,7 +59,7 @@ export const PROJECTS = {
       link_affiliation:
         "/writings/content-to-creation",
       description:
-        "My wife is an avid Pinterest user. One day she was making a grocery list for the week and was getting frustrated that she had to sift through a mountain of ads and prose in order to find the ingredients she needed. This tool aims to simplify the process by giving you the recipe directly!",
+        "Dylan's wife is an avid Pinterest user. One day she was making a grocery list for the week and was getting frustrated that she had to sift through a mountain of ads and prose in order to find the ingredients she needed. This tool aims to simplify the process by giving you the recipe directly!",
     },
     {
       image: "https://i.ibb.co/xsgr0tk/ezgif-com-crop-2.gif",
@@ -68,7 +69,7 @@ export const PROJECTS = {
       link_affiliation:
         "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
-        "I wrote a script that converts a file with all of the motor and joint positions of the robot during a run to the visualization you see.",
+        "Wrote a script that converts a file with all of the motor and joint positions of the robot during a run to the visualization you see.",
     },
     {
       image: "https://i.ibb.co/Lt1f5Rf/ezgif-com-crop-1.gif",
@@ -78,7 +79,7 @@ export const PROJECTS = {
       link_affiliation:
         "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
-        "I wrote a script that interfaces with the robot’s controller to automatically send the log data to Google Drive every time a test is done on the robot.",
+        "Wrote a script that interfaces with the robot’s controller to automatically send the log data to Google Drive every time a test is done on the robot.",
     },
     {
       image: "https://i.ibb.co/HqWBpPz/shared-scooter.jpg",
@@ -87,7 +88,7 @@ export const PROJECTS = {
       link: "",
       link_affiliation: "https://tryshared.com/",
       description:
-        "I consulted on a go-to-market plan, developing a proprietary decision-making rubric for Shared. I led out customer discovery efforts across 30 US cities and consulted at the executive level regarding all customer discovery and market entry initiatives.",
+        "Consulted on a go-to-market plan, developing a proprietary decision-making rubric for Shared. Led out customer discovery efforts across 30 US cities and consulted at the executive level regarding all customer discovery and market entry initiatives.",
     },
     {
       image: "https://i.ibb.co/9WFGQb0/alf-arrow.jpg",
@@ -96,7 +97,7 @@ export const PROJECTS = {
       link: "",
       link_affiliation: "https://www.albertazzilaw.com/",
       description:
-        "I wrote a program that goes onto the court website every day, scrapes the relevant cases, and stores them in a database that can be accessed by the law firm.",
+        "Wrote a program that goes onto the court website every day, scrapes the relevant cases, and stores them in a database that can be accessed by the law firm.",
     },
   ],
 };

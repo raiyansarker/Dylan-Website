@@ -37,7 +37,7 @@ export function InviteBox() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      I'm graduating March of 2021 and am looking for a full time job.
+      Graduating March of 2021 and seeking a full time job.
       <br />
       Reach out via{ " " }
       <a

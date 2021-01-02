@@ -96,7 +96,7 @@ export const AFFILIATIONS = [
       },
       {
         name: "Albertazzi Law Firm 💼",
-        description: `SEO and Web Dev`,
+        description: `SEO and Web Dev. Increased profits by over $115,000.`,
         link: "https://www.albertazzilaw.com/",
       },
     ],
