@@ -66,14 +66,18 @@ function Homepage({ writings }) {
                  <br />
                 {/* This website documents my journey from consumption to creation.
                 <br /> */}
-                Full-stack engineer with a passion for business enabling technology. 
+                Cloud Engineer 
                 <br />
-                Coding for 6+ years and loved every day of it. 
+                All about business enabling technology (check my <a
+                          href="https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q"
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                        >YouTube Channel 🎬</a> ). 
+                <br />
+                Heavy focus on AWS, Serverless, and Web Development. 
                 <br />
                 Brought growth to small businesses, startups, and research labs.
                 <br />
-                <br />
-                <h4>Graduating March of 2021 and seeking a full time job.</h4>
                 
 
               </Col>

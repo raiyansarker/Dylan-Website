@@ -82,7 +82,25 @@ export const AFFILIATIONS = [
   {
     title: "Current Affiliations",
     stack: [
+      {
+        name: "Effectual - Cloud Software Engineer ☁️",
+        description:
+          "Bringing Buisiness growth to Fortune 1000 Companies through AWS and Cloud Technology",
+        link: "https://oregonstate.edu/",
+      },
       
+      
+      
+      {
+        name: "Albertazzi Law Firm 💼",
+        description: `SEO and Web Dev. Increased profits by over $115,000.`,
+        link: "https://www.albertazzilaw.com/",
+      },
+    ],
+  },
+  {
+    title: "Past Affiliations",
+    stack: [
       {
         name: "Oregon State University 🎓",
         description:
@@ -94,16 +112,6 @@ export const AFFILIATIONS = [
         description: "Senior Project Built on AWS Data management.",
         link: "https://www.global-formula-racing.com/en/about-us",
       },
-      {
-        name: "Albertazzi Law Firm 💼",
-        description: `SEO and Web Dev. Increased profits by over $115,000.`,
-        link: "https://www.albertazzilaw.com/",
-      },
-    ],
-  },
-  {
-    title: "Past Affiliations",
-    stack: [
        {
         name: "Variance 👨🏻‍💻",
         description:

@@ -31,16 +31,7 @@ export const SKILLS = [
 export const PROJECTS = {
   title: "My Work",
   data: [
-    {
-      image: "https://i.imgur.com/lo30qaF.png",
-      name: "Variance",
-      subtitle: "Software Engineering Intern",
-      link: "/writings/Internship-at-Variance",
-      link_affiliation:
-        "/writings/Internship-at-Variance",
-      description:
-        "Software Engineering Internship at Variance.",
-    },
+    
     {
       image: "https://i.imgur.com/T2vek5P.gif",
       name: "Grub Guide",
@@ -61,6 +52,7 @@ export const PROJECTS = {
       description:
         "Dylan's wife is an avid Pinterest user. One day she was making a grocery list for the week and was getting frustrated that she had to sift through a mountain of ads and prose in order to find the ingredients she needed. This tool aims to simplify the process by giving you the recipe directly!",
     },
+   
     {
       image: "https://i.ibb.co/xsgr0tk/ezgif-com-crop-2.gif",
       name: "Cassie Visualization",
@@ -69,7 +61,7 @@ export const PROJECTS = {
       link_affiliation:
         "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
-        "Wrote a script that converts a file with all of the motor and joint positions of the robot during a run to the visualization you see.",
+        "Program that converts a file with all of the motor and joint positions of the robot during a run to the visualization you see.",
     },
     {
       image: "https://i.ibb.co/Lt1f5Rf/ezgif-com-crop-1.gif",
@@ -79,7 +71,7 @@ export const PROJECTS = {
       link_affiliation:
         "https://mime.oregonstate.edu/research/drl/robots/cassie/",
       description:
-        "Wrote a script that interfaces with the robot’s controller to automatically send the log data to Google Drive every time a test is done on the robot.",
+        "Program that interfaces with the robot’s controller to automatically send the log data to Google Drive every time a test is done on the robot.",
     },
     {
       image: "https://i.ibb.co/HqWBpPz/shared-scooter.jpg",
@@ -97,7 +89,17 @@ export const PROJECTS = {
       link: "",
       link_affiliation: "https://www.albertazzilaw.com/",
       description:
-        "Wrote a program that goes onto the court website every day, scrapes the relevant cases, and stores them in a database that can be accessed by the law firm.",
+        "Program that goes onto the court website every day, scrapes the relevant cases, and stores them in a database that can be accessed by the law firm.",
+    },
+     {
+      image: "https://i.imgur.com/lo30qaF.png",
+      name: "Variance",
+      subtitle: "Software Engineering Intern",
+      link: "/writings/Internship-at-Variance",
+      link_affiliation:
+        "/writings/Internship-at-Variance",
+      description:
+        "Software Engineering Internship at Variance.",
     },
   ],
 };

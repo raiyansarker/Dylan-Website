@@ -37,8 +37,7 @@ export function InviteBox() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      Graduating March of 2021 and seeking a full time job.
-      <br />
+      
       Reach out via{ " " }
       <a
         href="mailto: d.albertazzi10@gmail.com"
