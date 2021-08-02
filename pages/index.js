@@ -83,6 +83,20 @@ function Homepage({ writings }) {
                 <br />
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <div className="">
+                  <a
+                    href="mailto: d.albertazzi10@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="primary-button"
+                  >
+                    Contact {"  "}Dylan{" "}
+                  </a>
+                </div>
+              </Col>
+            </Row>
             <hr />
           </div>
           <>

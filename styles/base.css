@@ -122,6 +122,10 @@ div a.inline {
   border-bottom: 1px var(--heading-color) dashed;
 }
 
+.primary-CTA {
+  background: #000;
+}
+
 .blog-title {
   font-weight: 700;
   font-size: 80px;
@@ -254,6 +258,27 @@ hr {
 
 .back-button:hover {
   border-color: var(--secondary-color);
+}
+
+div a.primary-button {
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  font-size: 18px;
+  letter-spacing: 0px;
+  /* border: 4px #fff solid; */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-top: 10%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+div a.primary-button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #000;
+  border: 4px #000 solid;
 }
 
 .copy-to-clipboard {
