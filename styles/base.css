@@ -115,6 +115,13 @@ h6 {
   color: var(--heading-color);
 }
 
+div a.inline {
+  display: inline;
+  color: var(--heading-color);
+  text-decoration: none;
+  border-bottom: 1px var(--heading-color) dashed;
+}
+
 .blog-title {
   font-weight: 700;
   font-size: 80px;

@@ -26,16 +26,19 @@ function Homepage({ writings }) {
       <Layout isHomepage>
         <Row>
           <Col md={12}>
-            <div>
-              <p>
+            <div className="writing-row">
+              <p className="writing-title">
                 These days, Dylan is making videos on YouTube much more than
-                he's writing. For his recent stuff, check{" "}
+                he's writing.
+                <br /> For his recent stuff, check{" "}
                 <a
+                  className="inline"
                   target="_blank"
                   href="https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q"
                 >
-                  YouTube.
+                  YouTube
                 </a>
+                .
               </p>
             </div>
           </Col>
