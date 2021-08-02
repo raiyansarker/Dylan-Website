@@ -7,12 +7,12 @@ import simpleIcons from "simple-icons";
 const menu = [
   {
     path: "/",
-    name: "start",
-  },
-  {
-    path: "/about",
     name: "about",
   },
+  // {
+  //   path: "/about",
+  //   name: "about",
+  // },
   {
     path: "/blog",
     name: "blog",
@@ -37,15 +37,15 @@ export function InviteBox() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      
-      Reach out via{ " " }
+      Reach out via{" "}
       <a
         href="mailto: d.albertazzi10@gmail.com"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
         Email
-      </a>.
+      </a>
+      .
     </div>
   );
 }

@@ -25,6 +25,22 @@ function Homepage({ writings }) {
     <>
       <Layout isHomepage>
         <Row>
+          <Col md={12}>
+            <div>
+              <p>
+                These days, Dylan is making videos on YouTube much more than
+                he's writing. For his recent stuff, check{" "}
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q"
+                >
+                  YouTube.
+                </a>
+              </p>
+            </div>
+          </Col>
+        </Row>
+        <Row>
           {writings.map(({ document, slug }) => {
             const {
               data: { title, date },

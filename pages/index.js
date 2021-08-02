@@ -10,7 +10,7 @@ const TextTransition = dynamic(() => import("react-text-transition"), {
   ssr: false,
 });
 
-import { SKILLS, PROJECTS, SOCIAL } from "../constants/Stack";
+import { SKILLS, CERTIFICATIONS, SOCIAL } from "../constants/Stack";
 import Layout, { Icon, InviteBox } from "../components/Layout";
 import { solarizedDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
@@ -32,7 +32,6 @@ var subtitleStyle = {
   color: "#222",
   marginTop: "0px",
 };
-
 
 function Homepage({ writings }) {
   const [index, setIndex] = useState(0);
@@ -63,35 +62,37 @@ function Homepage({ writings }) {
             <Row>
               <Col md={12}>
                 Hi there and welcome 👋🏻.
-                 <br />
+                <br />
                 {/* This website documents my journey from consumption to creation.
                 <br /> */}
-                Cloud Engineer 
+                Cloud Engineer
                 <br />
-                All about business enabling technology (check my <a
-                          href="https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q"
-                          target="_blank"
-                          rel="noopener noreferrer nofollow"
-                        >YouTube Channel 🎬</a> ). 
+                All about business enabling technology (check my{" "}
+                <a
+                  href="https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  YouTube Channel 🎬
+                </a>{" "}
+                ).
                 <br />
-                Heavy focus on AWS, Serverless, and Web Development. 
+                Heavy focus on AWS, Serverless, and Web Development.
                 <br />
-                Brought growth to small businesses, startups, and research labs.
+                Trusted by Fortune 500's, startups, and research labs.
                 <br />
-                
-
               </Col>
             </Row>
             <hr />
           </div>
           <>
-            <h2>{PROJECTS.title}</h2>
+            <h2>{CERTIFICATIONS.title}</h2>
             <Row style={{ marginTop: 30 }}>
               <ul
                 className="uses-list"
                 style={{ marginTop: "0px", marginBottom: "0px" }}
               >
-                {PROJECTS.data.map(
+                {CERTIFICATIONS.data.map(
                   ({
                     image,
                     name,
@@ -100,20 +101,16 @@ function Homepage({ writings }) {
                     subtitle,
                     link_affiliation,
                   }) => (
-                      <div key={link}>
-                        <a href={link}>
+                    <div key={link}>
                       <img
                         src={image}
                         alt={`Project - ${name}`}
                         style={{
                           width: "200px",
                           marginLeft: "10px",
-                          borderStyle: "solid",
-                          borderRadius: "8px",
-                          borderWidth: "4px",
+                          borderStyle: "none",
                         }}
-                          />
-                          </a>
+                      />
                       <li key={name}>
                         <a
                           href={link}
@@ -127,16 +124,17 @@ function Homepage({ writings }) {
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                         >
-                          <p style={subtitleStyle}>
-                            &nbsp; &nbsp;
+                          <br />
+                          {/* <p style={subtitleStyle}>
+                             &nbsp;
                             {subtitle}
-                          </p>
+                          </p> */}
                         </a>
 
                         <span className="darker">{description}</span>
                       </li>
 
-                      <hr />
+                      <br />
                     </div>
                   )
                 )}
@@ -165,7 +163,6 @@ function Homepage({ writings }) {
             </Row>
           </>
           <InviteBox />
-        
         </div>
       </Layout>
     </>

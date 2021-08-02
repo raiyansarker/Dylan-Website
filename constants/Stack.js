@@ -1,19 +1,15 @@
 export const PRESENT = [
   "Amazon AWS",
+  "Serverless",
   "CSS3",
   "JavaScript",
   "React",
-  "Python",
-  "PostgreSQL",
-  "Google Analytics",
   "GNU bash",
-  "Git",
-  
 ];
 
 export const SKILLS = [
   "codes",
-  
+
   "reads",
   "thinks",
   "laughs",
@@ -31,14 +27,12 @@ export const SKILLS = [
 export const PROJECTS = {
   title: "My Work",
   data: [
-    
     {
       image: "https://i.imgur.com/T2vek5P.gif",
       name: "Grub Guide",
       subtitle: "Business Intelligence for Local Restaurants 👉 Learn More 🎥",
       link: "/writings/GrubGuide-the-what-and-why",
-      link_affiliation:
-        "/writings/GrubGuide-the-what-and-why",
+      link_affiliation: "/writings/GrubGuide-the-what-and-why",
       description:
         "Dylan's hometown of Bend, Oregon gets over 4.5 million visitors per year. Created a tool that gives them an incredible, customized restaurant recommendation. Local restaurants can improve their offering by using visitor preferences to inform their business decisions.",
     },
@@ -47,12 +41,11 @@ export const PROJECTS = {
       name: "Pinterlist",
       subtitle: "Turn a Pinterest Recipe into a Grocery List 👉 Learn More 🎥",
       link: "/writings/content-to-creation",
-      link_affiliation:
-        "/writings/content-to-creation",
+      link_affiliation: "/writings/content-to-creation",
       description:
         "Dylan's wife is an avid Pinterest user. One day she was making a grocery list for the week and was getting frustrated that she had to sift through a mountain of ads and prose in order to find the ingredients she needed. This tool aims to simplify the process by giving you the recipe directly!",
     },
-   
+
     {
       image: "https://i.ibb.co/xsgr0tk/ezgif-com-crop-2.gif",
       name: "Cassie Visualization",
@@ -91,15 +84,13 @@ export const PROJECTS = {
       description:
         "Program that goes onto the court website every day, scrapes the relevant cases, and stores them in a database that can be accessed by the law firm.",
     },
-     {
+    {
       image: "https://i.imgur.com/lo30qaF.png",
       name: "Variance",
       subtitle: "Software Engineering Intern",
       link: "/writings/Internship-at-Variance",
-      link_affiliation:
-        "/writings/Internship-at-Variance",
-      description:
-        "Software Engineering Internship at Variance.",
+      link_affiliation: "/writings/Internship-at-Variance",
+      description: "Software Engineering Internship at Variance.",
     },
   ],
 };
@@ -108,31 +99,45 @@ export const CERTIFICATIONS = {
   title: "Certifications",
   data: [
     {
-     image: "https://images.youracclaim.com/size/340x340/images/6774b3bf-7a82-4d40-a2d1-86b412635bae/AWS-SolArchitect-Associate.png",
+      image:
+        "https://images.youracclaim.com/size/340x340/images/6774b3bf-7a82-4d40-a2d1-86b412635bae/AWS-SolArchitect-Associate.png",
       name: "AWS Certified Solutions Architect – Associate",
-      description: "Demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements.",
+      description:
+        "Demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements.",
       link: "https://www.youracclaim.com/badges/7c2c833d-4d81-4b01-8c5e-97a4e4af833a",
       link_affiliation:
         "https://www.youracclaim.com/badges/905e8ac2-52f0-4dc0-b0d6-9d805941272d",
-     },
+    },
     {
-      image: "https://images.youracclaim.com/size/340x340/images/1fdcf6a9-de8e-4e35-96b0-e801d8411506/AWS-CloudPractitioner.png",
+      image:
+        "https://images.credly.com/size/6340x340/images/598f6ac6-2dbd-4394-8ae4-943b2f4c43ea/AWS-Developer-Associate-2020.png",
+      name: "AWS Certified Developer – Associate",
+      description:
+        "Demonstrated proficiency in developing, deploying, and debugging cloud-based applications using AWS",
+      link: "https://www.credly.com/badges/9c5462d3-3029-4857-a38f-b3ee557efc8f/public_url",
+      link_affiliation:
+        "https://www.credly.com/badges/9c5462d3-3029-4857-a38f-b3ee557efc8f/public_url",
+    },
+    {
+      image:
+        "https://images.youracclaim.com/size/340x340/images/1fdcf6a9-de8e-4e35-96b0-e801d8411506/AWS-CloudPractitioner.png",
       name: "AWS Certified Cloud Practitioner",
       description: "Demonstrated cloud fluency and foundational AWS knowledge.",
       link: "https://www.youracclaim.com/badges/905e8ac2-52f0-4dc0-b0d6-9d805941272d",
       link_affiliation:
         "https://www.youracclaim.com/badges/905e8ac2-52f0-4dc0-b0d6-9d805941272d",
     },
-    
-  
   ],
 };
 
 export const SOCIAL = {
   title: "Available here",
   data: [
-    { platform: "YouTube", link: `https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q` },
-    
+    {
+      platform: "YouTube",
+      link: `https://www.youtube.com/channel/UC1DHIqwiWtbdrSq8o8Ybc3Q`,
+    },
+
     {
       platform: "LinkedIn",
       link: `https://linkedin.com/in/dylan-albertazzi-b6781b17a/`,

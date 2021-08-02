@@ -4,12 +4,12 @@
   "description": "A tale of code & design",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "dev": "next -p 3003",
+    "build": "next build -p 3003",
+    "start": "next start -p 3003",
     "build:static": "next build && next export"
   },
-  "author": "Telmo Goncalves <@telmo>",
+  "author": "Dylan Albertazzi",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
